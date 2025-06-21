@@ -49,7 +49,7 @@ const Header = ({ user, onLogout }: HeaderProps) => {
     <header className="bg-white border-b border-gray-200 px-6 py-4">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <SidebarTrigger className="md:hidden" />
+          <SidebarTrigger className="h-8 w-8" />
           <div>
             <h1 className="text-2xl font-semibold text-gray-900">
               Welcome back, {user.name}
